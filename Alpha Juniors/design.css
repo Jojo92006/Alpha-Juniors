@@ -1,0 +1,240 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div.mainpage{
+    background-image: url("images/background.JPG");
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.navbar{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    background-color: darkturquoise;
+}
+div.navbar a{
+    color: aliceblue;
+    margin: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+div.navbar img{
+    margin-left: -250px;
+    
+}
+div.details{
+    color: white;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 200px;
+    margin-left: 20%;
+    font-size: 24px;
+    font-family: cursive;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.button but1{
+    text-decoration: none;
+    color: darkturquoise;
+}
+.but2{
+    background-color: darkturquoise;
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+div.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.course{
+    margin: 40px;
+    border:3px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+}
+.img{
+    background-image: url("images/robot.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.img2{
+    background-image: url("images/web.jpg");
+}
+.img3{
+    background-image: url("images/scratch.jpg");
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.c{
+    background-color: mediumpurple;
+    padding: 15px;
+    text-align: center;
+    margin: 0px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+}
+.coursedetails{
+    padding: 15px;
+    color:dodgerblue;
+    font-size: 18px;
+}
+.navbar2 img{
+    height: 90px;
+    margin-left: 50px;
+}
+h1.title{
+    margin: 10px;
+}
+form{
+    border: 2px solid darkcyan;
+    padding: 40px;
+    margin: 10px;
+    margin-top: -150px;
+    margin-left: 150px;
+    margin-right: -150px
+}
+.form{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: 10%;
+}
+a.submit{
+    border: 2px solid darkcyan;
+    border-radius: 8px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+}
+
+.info{
+    display: block;
+    margin: 150px;
+    margin-top: 10px;
+    margin-left: 470px;
+    width: 100%;
+    font-size: 26px;
+}
+a.join{
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+input{
+    font-size: 25px;
+    margin-top: 2px;
+    width: 40%;
+    padding: 5px;
+}
+.navbar3{
+    margin-left: 100px;
+}
+.startcourse{
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+hr{
+    rgba(0, 0, 0, 0.2);
+}
+.web1{
+    background-color: dodgerblue;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.web2{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.web3, .web4, .web5, .web6, .web7, .web8, .web9{
+    padding-left: 8px;
+}
+button.send{
+    margin-left: 350px;
+    color: white;
+    background-color: red;
+    padding: 8px;
+}
+img.contact{
+    margin: 20px;
+}
+.contactus{
+    display: flex;
+}
+.contact1{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.contact1 img{
+    margin-right: 8px;
+    margin-left: 0px;
+}
+.con3 img{
+    margin-right: 80px;
+    margin-left: -50px;
+}
+p.phone{
+    text-align: center;
+    margin-left: -50px;
+}
+.contact{
+    margin: 50px;
+}
+.footer{
+    background-color: darkcyan;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
